@@ -1,64 +1,57 @@
-<h1 align="center">Hi, I'm Omar Aydah 👋</h1>
-<p align="center">Software Development Engineer — backend, data & infrastructure</p>
+<a href="https://omaraydah.dev">
+  <img src="./banner.svg" alt="Omar Aydah — Backend, Data & AI Infrastructure. Visit omaraydah.dev" width="100%" />
+</a>
 
 <p align="center">
-  <a href="https://bridge-eight-lemon.vercel.app"><img src="https://img.shields.io/badge/Live%20Demo-Bridge-000000?style=flat-square" /></a>
-  <a href="https://www.linkedin.com/in/omar-aydah-"><img src="https://img.shields.io/badge/LinkedIn-Connect-000000?style=flat-square" /></a>
+  <a href="https://omaraydah.dev"><img src="https://img.shields.io/badge/▶_VISIT_MY_PORTFOLIO-omaraydah.dev-3b82f6?style=for-the-badge&labelColor=0b0a12&logo=vercel&logoColor=white" alt="Portfolio" height="34"/></a>
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/omar-aydah-"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://bridge-eight-lemon.vercel.app"><img src="https://img.shields.io/badge/Bridge_(live_demo)-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Bridge live demo"/></a>
+  <a href="mailto:omaraydah27@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
 ---
 
-### About
+## > whoami
 
-I'm a CS student at Westfield State University and a backend engineer who likes building the parts of a system that have to be right — auth, data pipelines, and the integrations that quietly break everything if they're wrong. Right now that means shipping backend infrastructure for an AI research-integrity platform used by real researchers, and before that it meant untangling why a mentorship platform's OAuth flow was silently failing in production.
+```yaml
+name:      Omar Aydah
+role:      Software Development Engineer  (backend · data · infra)
+current:   owning backend architecture for RIGORA, an AI research
+           integrity platform  ·  Virginia Tech × Gates Foundation
+studying:  B.S. Computer Science  ·  Westfield State  ·  class of '27
+shipped:   Bridge — a mentorship marketplace (backend API + OAuth)
+i_like:    the parts that have to be right — auth, pipelines, integrations
+languages: English · Arabic
+```
 
-Outside of code: I'm a Residential Assistant overseeing a 280-student community, and a peer counselor/ambassador with my school's LEAD Scholars Program, mentoring incoming students through their transition to college. Bilingual in Arabic and English.
+## > featured
 
-- 🔭 Currently building backend infrastructure for **RIGORA**, an AI-powered research integrity platform (Virginia Tech × Gates Foundation) — private/client repo
-- 🧱 Shipped: **Bridge**, a mentorship marketplace — backend API, auth/session data layer, and OAuth/scheduling integration
-- 🌱 Publishing more personal projects soon — see below
-- ⚡ I like systems that are easy to trust: locked-down auth, server-verified payments, tests that catch real bugs
+**RIGORA** — *private* · Virginia Tech × Gates Foundation
+An AI platform that flags questionable research practices before they can shape funding decisions. I own the backend: one query fanned across **5 academic databases**, 900K+ deduplicated records, a 5-class misconduct classifier, and a statistical-layer rebuild that cut query latency **43%** and scaled tests **3.4×**.
 
----
+**[Bridge](https://bridge-eight-lemon.vercel.app)** — *live* · team project
+A paid mentorship marketplace. I built the backend API and integration layer, and resolved a blocking Google OAuth/Calendar issue to get scheduling reliable in production.
 
-### Featured work
+> **See it all, interactive, at [omaraydah.dev →](https://omaraydah.dev)** — with a live terminal you can actually type into.
 
-**RIGORA — Research Integrity Platform**
-An AI-powered platform, built with Virginia Tech faculty and funded by the Gates Foundation, that flags questionable research practices in academic literature before they can shape funding decisions. I own the backend end-to-end: a search pipeline that translates a single query across 5 academic databases (PubMed, Crossref, OpenAlex, Semantic Scholar, Google Scholar) — each with its own query syntax — surfacing 900,000+ deduplicated candidate records that get narrowed to a targeted reference corpus, plus citation graph traversal and a 5-class misconduct classification pipeline powering automated report generation. Rebuilt the platform's statistical layer (bootstrap confidence intervals, power analysis) to fix a production accuracy bug, cutting query latency 43% and scaling test coverage 3.4x.
-*Repo is private (client/company codebase) — no public link available.*
-`Python` `FastAPI` `Pydantic` `scipy` `rapidfuzz`
+## > stack
 
-**[Bridge](https://bridge-eight-lemon.vercel.app) — Mentorship Platform**
-Paid mentorship marketplace connecting job seekers with vetted industry mentors: booking, Stripe payments, Calendly scheduling, AI-guided intake, and live video sessions. My contribution: backend API and integration layer — session/mentor data services, and resolving a blocking Google OAuth/Calendar authentication issue to enable reliable production scheduling. Built collaboratively with a teammate over two development sprints.
-[Live demo →](https://bridge-eight-lemon.vercel.app)
-`Next.js` `React` `Supabase` `Stripe` `Calendly`
-
----
-
-### More on the way
-
-Currently building out a few more projects to publish here — check back soon.
-
-| Project | Status |
-|---|---|
-| 🔜 TBD | In progress |
-| 🔜 TBD | Planned |
-
----
-
-### Tech I work with
-
-**Languages**
-`Python` `SQL / MySQL` `R` `Java` `TypeScript` `JavaScript` `HTML/CSS`
-
-**Frameworks & Libraries**
-`FastAPI` `Pydantic` `React` `Next.js` `NumPy` `Pandas` `Tailwind CSS` `scipy` `rapidfuzz` `Axios` `BeautifulSoup` `Zod` `shadcn/ui`
-
-**Tools & Platforms**
-`Git` `GitHub` `Docker` `Supabase` `PostgreSQL` `REST APIs` `Vite` `pytest` `Postman` `Vercel` `CI/CD` `Linux/Bash`
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
 ---
 
 <p align="center">
-  <a href="https://bridge-eight-lemon.vercel.app">Bridge demo</a> · <a href="https://www.linkedin.com/in/omar-aydah-">LinkedIn</a>
+  <a href="https://omaraydah.dev"><b>omaraydah.dev</b></a>  ·  <a href="mailto:omaraydah27@gmail.com">omaraydah27@gmail.com</a>
 </p>
